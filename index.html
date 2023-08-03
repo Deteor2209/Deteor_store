@@ -27,10 +27,11 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#ofertas" onclick="seleccionar()">Ofertas</a></li>
+                    <li><a href="#productos" onclick="seleccionar()">Productos</a></li>
+                    <li><a href="#iconos" onclick="seleccionar()">Advertencias de lavado</a></li>
+                    <li><a href="#blog" onclick="seleccionar()">Blog</a></li>
                 </ul>
             </nav>
 
@@ -61,7 +62,7 @@
         <!-- Header -->
         <div class="header-content container">
             <div class="header-img">
-                <img src="images/right.png" alt="">
+                <img id="Inicio" src="images/right.png" alt="">
             </div>
             <div class="header-txt">
                 <h1>Ofertas Especiales</h1>
@@ -72,7 +73,7 @@
     </header>
 
     <!-- Ofertas -->
-    <section class="ofert container">
+    <section id="ofertas" class="ofert container">
         <div class="ofert-1">
             <div class="ofert-img">
                 <img src="images/f1.png" alt="">
@@ -106,7 +107,7 @@
     <!-- Productos -->
     <main class="products container" id="lista-1">
 
-        <h2>Productos</h2>
+        <h2 id="productos">Productos</h2>
         
         <div class="product-content">
 
@@ -175,7 +176,7 @@
     </main>
 
     <!-- iconos -->
-    <section class="icons container">
+    <section id="iconos" class="icons container">
         <div class="icon-1">
             <div class="icon-img">
                 <img src="images/i1.svg" alt="">
@@ -211,7 +212,7 @@
         </div>
     </section>
 
-    <section class="blog container">
+    <section id="blog" class="blog container">
         <div class="blog-1">
             <img src="images/b1.jpg" alt="">
             <h3>Blog 1</h3>
